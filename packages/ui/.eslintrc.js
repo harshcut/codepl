@@ -27,7 +27,9 @@ module.exports = {
   ignorePatterns: ['node_modules/', 'dist/', '.eslintrc.js', '**/*.css'],
   rules: {
     'import/no-default-export': 'off',
+    'import/order': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
+    'react/display-name': 'off',
   },
   overrides: [
     {
